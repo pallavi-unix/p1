@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row; /* Boxes will be lined up horizontally */
+    justify-content: flex-start; /* Align boxes to the start (left) */
+    align-items: flex-start; /* Align boxes to the top */
+    margin: 20px; /* Add some spacing around the container */
+}
+
+.horizontal-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin-right: 10px; /* Add spacing between boxes */
+    border: 2px solid #2980b9;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
