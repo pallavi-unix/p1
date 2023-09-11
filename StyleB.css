@@ -1,0 +1,53 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+.odd {
+    background-color: #eeeff2;
+    height: 150px;
+    width: 100px;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    }
+.even {
+    background-color: #eeeff2;
+    height: 150px;
+    width: 100px;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    }
+.last {
+    background-color: #eeeff2;
+    height: 150px;
+    width: 100px;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    }
+.odd:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+    }
+.even:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+    }
+.last:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+    }
