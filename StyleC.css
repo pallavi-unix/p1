@@ -7,7 +7,7 @@
     flex-wrap: wrap;
   }
 .odd {
-    background-image: linear-gradient(yellow 50%, red);
+    background-image: linear-gradient(red 40%, red);
     height: 100px;
     width: 100px;
     margin: 3px 0;
