@@ -1,9 +1,9 @@
 # SSDI - Project 1
 List of Files:
-    index.html
-    styleA.css
-    styleB.css
-    styleC.css
+1. index.html
+2. styleA.css
+3. styleB.css
+4. styleC.css
 
 The reference to all three stylesheets is given in index.html, where the reference to styleA.css is part of the code, and the references to the other two sheets are commented just below styleA reference.
 
